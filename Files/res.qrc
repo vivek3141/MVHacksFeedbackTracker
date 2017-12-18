@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="real">
+    <file>background.png</file>
+    <file>back.PNG</file>
+    <file>the-background-1508746_960_720.png</file>
+    <file>mv.PNG</file>
+    <file>snip.PNG</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>458</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Students</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="pb">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>520</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Select</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>441</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pb</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>344</x>
+     <y>543</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>179</x>
+     <y>542</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

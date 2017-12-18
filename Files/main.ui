@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>788</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>794</width>
+    <height>428</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MVHacks</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>821</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/real/snip.PNG);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>788</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFeedback">
+    <property name="title">
+     <string>Feedback</string>
+    </property>
+    <addaction name="actionGive_Feedback"/>
+    <addaction name="actionView_Feedback"/>
+    <addaction name="actionFull_Report"/>
+   </widget>
+   <widget class="QMenu" name="menuStudent">
+    <property name="title">
+     <string>Student</string>
+    </property>
+    <addaction name="actionAdd_Student"/>
+    <addaction name="actionV"/>
+    <addaction name="actionCheck_in"/>
+   </widget>
+   <addaction name="menuFeedback"/>
+   <addaction name="menuStudent"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionGive_Feedback">
+   <property name="text">
+    <string>Give Feedback</string>
+   </property>
+  </action>
+  <action name="actionAdd_Student">
+   <property name="text">
+    <string>Add Student</string>
+   </property>
+  </action>
+  <action name="actionV">
+   <property name="text">
+    <string>View Students</string>
+   </property>
+  </action>
+  <action name="actionCheck_in">
+   <property name="text">
+    <string>Check in</string>
+   </property>
+  </action>
+  <action name="actionView_Feedback">
+   <property name="text">
+    <string>View Feedback</string>
+   </property>
+  </action>
+  <action name="actionFull_Report">
+   <property name="text">
+    <string>Full Report</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
